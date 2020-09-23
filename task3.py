@@ -12,3 +12,13 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a= input("what is a? ")
+b= input("What is b? ")
+c= input("What is c? ")
+a=float(a)
+b=float(b)
+c=float(c)
+solution = (c-b)/a
+x= int(solution)
+print(x)
