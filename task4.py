@@ -13,3 +13,13 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+import math
+
+a=input("what is side a? ")
+a=float(a)
+b=input("what is side b? ")
+b=float(b)
+solution = (a**2)+(b**2)
+c=math.sqrt(solution)
+c=float(c)
+print(c)
