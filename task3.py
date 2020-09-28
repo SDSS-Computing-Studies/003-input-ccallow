@@ -20,5 +20,5 @@ a=float(a)
 b=float(b)
 c=float(c)
 solution = (c-b)/a
-x= int(solution)
+x= float(solution)
 print(x)
